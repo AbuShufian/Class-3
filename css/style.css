@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,span,a,input,textarea{
+	font-family: 'Rubik', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+/*Header section css Start*/
+header{
+	width: 100%;
+	padding: 12px 0;
+	border-bottom: 2px solid #eee; 
+}
+.containar{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 12px;
+	line-height: 70px;
+}
+
+/*Header section css End*/
+/*Banner section Css Start*/
+#banner{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+h1{
+	font-size: 56px;
+	margin-bottom: 16px;
+}
+.banner-contant p{
+	font-weight: 300;
+	margin-bottom: 32px;
+}
+.banner-contant span{
+	color: #008aff;
+}
+/*Banner section Css End*/
+/*Statistic section css Start*/
+.about{
+	width: 100%;
+	padding: 40px 0px;
+}
+.about-contant{
+	display: flex;
+}
+.left, .right{
+	flex-basis: 50%;
+}
+.left{
+	text-align: right;
+	margin-right: 16px;
+}
+.right{
+	text-align: left;
+	margin-left: 16px;
+}
+.left h2{
+	font-size: 42px;
+	color: tomato;
+	margin-bottom: 8px;
+}
+.left p{
+	font-weight: 300;
+	line-height: 1.6;
+}
+.right h2{
+	font-size: 42px;
+	color: #3f3d56;
+}
+/*Statistic section css end*/
+/*Services section Code End*/
+#services{
+	width: 100%;
+	padding: 40px 0px;
+}
+.services-contant{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.services-item{
+	margin: 20px;
+	padding: 16px;
+}
+.three{
+	background: #fff7e8;
+}
+.two{
+	background: #ebf9f4;
+}
+.one{
+	background: #fdebed;
+}
+.services-item h4{
+	font-size: 22px;
+	margin-bottom: 12px;
+	font-weight: 500;
+}
+.services-item p{
+	font-weight: 300;
+}
+/*Services section Code End*/
+/*footar section Code Start*/
+footer{
+	background: #008aff;
+	padding: 20px 0px;
+	text-align: center;
+}
+.footar-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 16px;
+}
+.footar-icon ul li a i{
+	height: 40px;
+	width: 40px;
+	background: #47c4ff;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	border-radius: 100%;
+}
+.footar-icon ul li a i:hover{
+	transform: rotate(360deg);
+	transition: 0.5s;
+	background: tomato;
+}
+/*footar section Code End*/
